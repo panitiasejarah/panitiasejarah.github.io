@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 text-white" style="background-color: black; width: 100%; height: 400px">
+  <div class="p-5 text-white" style="background-color: black; width: 100%; min-height: 370px">
     <h5>Panitia Sejarah SK Teluk Kemang</h5>
     <hr style="background-color: white">
     <p>Website Panitia Sejarah ini diuruskan oleh Panitia Sejarah Web Admin dan Nazyie</p>

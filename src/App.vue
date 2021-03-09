@@ -1,6 +1,6 @@
 <template>
 <nav class="navbar sticky-top navbar-expand-lg shadow-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/">Panitia Sejarah</a>
+  <router-link class="navbar-brand text-dark" to="/">Panitia Sejarah</router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

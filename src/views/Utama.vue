@@ -1,14 +1,19 @@
 <template>
 <div class="homepage-header">
   <div class="mx-auto text-center" style="padding-top: 14vh;">
-    <h1 class="fw-bold">Selamat Datang <br> Ke Website Panitia Sejarah</h1>
+    <h1 class="font-weight-bold">Selamat Datang <br> Ke Website Panitia Sejarah</h1>
     <h3>SK Teluk Kemang</h3>
     <div class="pt-3">
-      <button class="btn btn-primary">Ketahui Selanjutnya</button>
+      <router-link class="nav-link text-dark" to="/maklumat-kami"><button class="btn btn-primary">Ketahui Selanjutnya</button></router-link>
+      
     </div>
   </div>
 </div>
+
 <Card />
+
+<Carousel />
+
 <div>
   <div class="p-5">
       <h2 class="text-center font-weight-bold">Perihal Sejarah</h2>
@@ -32,12 +37,14 @@
 
 <script>
 import Card from '@/components/Card.vue'
+import Carousel from '@/components/Carousel.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
     Card,
     Footer,
+    Carousel,
   }
 }
 </script>
