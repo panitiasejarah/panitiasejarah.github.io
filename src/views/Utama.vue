@@ -29,7 +29,7 @@
       untuk memeriksa dan menganalisa turutan peristiwa, dan kadangkala ia cuba untuk menyiasat secara 
       objektif corak-corak sebab dan akibat yang menilai peristiwa-peristiwa
     </p>
-    <img src="../assets/tugu_negara.png" alt="" style="width: 70%">
+    <img src="@/assets/tugu_negara.png" alt="" style="width: 70%">
   </div>
 </div>
 <Footer />
